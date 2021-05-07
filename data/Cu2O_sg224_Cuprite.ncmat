@@ -2,6 +2,8 @@ NCMAT v4
 #
 # Cuprite (Cu2O)
 #
+# Valid temperatures for this structure are 0 to 1400 K.
+#
 # Crystal structure converted from the cif file of the entry 0009326 in the AMCSD
 # Additional reference: Kirfel A, Eichhorn K, Acta Crystallographica, Section A,
 #                       vol. 46, p. 271-284, 1990.
@@ -13,7 +15,7 @@ NCMAT v4
 #  [1]: "First principles phonon calculations in materials science",
 #        Atsushi Togo and Isao Tanaka, Scr. Mater., 108, 1-5 (2015)
 #  [2]: Kyoto University database of phonon calculations.
-#       Files for BeF2 (material ID 361, DB release 2018-04-17) taken from:
+#       Files for Cu2O taken from:
 #       http://phonondb.mtl.kyoto-u.ac.jp/ph20180417/d000/mp-361.html
 #  [3]: Cheng, Y. Q.; Kolesnikov, A. I.; Ramirez-Cuesta, A. J., "Calculation
 #       of the Thermal Neutron Scattering Cross-Section of Solids Using OCLIMAX".

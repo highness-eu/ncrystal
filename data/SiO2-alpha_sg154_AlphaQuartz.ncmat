@@ -2,6 +2,8 @@ NCMAT v4
 #
 # Alpha-Quartz (SiO2)
 #
+# Valid temperatures for this structure are 0 to 850 K.
+#
 # Crystal structure was converted from the cif file of the entry 0006212 in the AMCSD
 # Additional reference: Antao S M, Hassan I, Wang J, Lee P L, Toby B H, The Canadian
 #                       Mineralogist, vol. 46, p. 1501-1509, 2008.

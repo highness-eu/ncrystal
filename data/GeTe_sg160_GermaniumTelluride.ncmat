@@ -1,0 +1,61 @@
+NCMAT v4
+#
+# Germanium telluride (GeTe)
+#
+# Valid temperatures for this structure are 0 to 670 K.
+#
+# Crystal structure obtained from https://www.materialsproject.org/materials/mp-938/
+# and lattice parameters were updated with sd_0305051 entry from
+# https://materials.springer.com/
+#
+# The VDOS curves were calculated using Phonopy[1] input files from[2] and
+# OCLIMAX[3] software by Kemal Ramic from ESS Spallation Physics group.
+#
+# References:
+#  [1]: "First principles phonon calculations in materials science",
+#        Atsushi Togo and Isao Tanaka, Scr. Mater., 108, 1-5 (2015)
+#  [2]: Kyoto University database of phonon calculations.
+#       Files for GeTe taken from:
+#       http://phonondb.mtl.kyoto-u.ac.jp/ph20180417/d000/mp-938.html
+#  [3]: Cheng, Y. Q.; Kolesnikov, A. I.; Ramirez-Cuesta, A. J., "Calculation
+#       of the Thermal Neutron Scattering Cross-Section of Solids Using OCLIMAX".
+#       Journal of Chemical Theory and Computation 2020, 16 (8), 5212-5217.
+#
+@CELL
+  lengths 4.1546 4.1546 10.6197
+  angles 90 90 120
+@SPACEGROUP
+  160
+@ATOMPOSITIONS
+  Ge 0.00000000  0.00000000  0.00494000
+  Ge 0.66666667  0.33333333  0.33827333
+  Ge 0.33333333  0.66666667  0.67160667
+  Te 0.33333333  0.66666667  0.14072667
+  Te 0.00000000  0.00000000  0.47406000
+  Te 0.66666667  0.33333333  0.80739333
+@DYNINFO
+  element  Ge
+  type     vdos
+  fraction 1/2
+  vdos_egrid 0.00399986 0.0239992
+  vdos_density .0671056 .0966658 .115692 .133566 .167448 .220338 .289856 .336592 .355429 .363224
+  .377827 .384316 .4115 .476359 .522125 .514784 .490967 .478174 .472065 .448162 .388894
+  .335262 .309332 .306145 .327175 .371596 .400667 .389623 .354003 .295835 .231816
+  .174412 .123371 .0846888 .0674548 .0716932 .0860786 .104152 .131741 .17815 .24821
+  .334603 .40816 .45795 .512325 .569572 .625891 .680851 .74298 .830901 .909956 .957332
+  1 .976621 .799128 .558644 .402018 .343329 .330238 .334726 .355554 .386286 .408298
+  .424274 .452523 .479476 .470993 .424114 .363127 .315849 .289463 .267601 .228048
+  .163209 .0921263 .0405879 .0140363 .00357393 .00059307 5.80626e-05 3.17364e-06
+@DYNINFO
+  element  Te
+  fraction 1/2
+  type     vdos
+  vdos_egrid 0.00399986 0.0239992
+  vdos_density .126698 .177749 .21021 .235451 .283311 .36327 .481047 .572849 .624041 .651949 .683022
+  .692191 .733794 .835564 .907152 .902882 .880472 .874043 .868648 .832918 .747752
+  .681468 .659977 .676181 .75271 .889909 .999106 1 .906237 .74905 .580881 .424473
+  .287923 .178468 .1077 .0852527 .0926368 .11067 .140355 .190167 .26604 .356996 .429414
+  .47449 .522538 .573195 .625648 .676469 .733547 .819867 .902705 .95475 .987802 .931755
+  .720384 .465605 .300235 .224752 .191479 .177137 .176686 .183883 .187317 .186393
+  .191155 .19704 .187753 .163399 .136225 .115298 .101881 .0908091 .0751815 .0535272
+  .0317539 .0157325 .00624766 .00175701 .000307422 3.08653e-05 1.70725e-06

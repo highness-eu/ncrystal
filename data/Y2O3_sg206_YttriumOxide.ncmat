@@ -1,6 +1,8 @@
 NCMAT v4
 #Yttrium Oxide (Yttria). Cubic.
 #
+# Valid temperatures for this structure are 0 to 1000 K.
+#
 #Reference for crystal structure:
 #
 #   Park, Woon Bae, et. al., Journal of Materials Chemistry, vol. 21, p. 5780, 2011.
